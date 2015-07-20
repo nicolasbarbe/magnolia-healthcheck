@@ -4,8 +4,8 @@
   <name>healthcheck</name>
   <displayName>${project.name}</displayName>
   <description>${project.description}</description>
-  <class>info.magnolia.services.healthcheck.HealthcheckModule</class>
-  <versionHandler>info.magnolia.services.healthcheck.setup.HealthcheckModuleVersionHandler</versionHandler>
+  <class>info.magnolia.healthcheck.HealthcheckModule</class>
+  <versionHandler>info.magnolia.healthcheck.setup.HealthcheckModuleVersionHandler</versionHandler>
   <version>${project.version}</version>
 
   <dependencies>
@@ -29,7 +29,7 @@
   <servlets>
     <servlet>
       <name>HealthCheckServlet</name>
-      <class>info.magnolia.services.healthcheck.servlets.HealthCheckServlet</class>
+      <class>info.magnolia.healthcheck.servlets.HealthCheckServlet</class>
       <comment>Used to check Magnolia instance health.</comment>
       <mappings>
         <mapping>/.healthcheck/*</mapping>

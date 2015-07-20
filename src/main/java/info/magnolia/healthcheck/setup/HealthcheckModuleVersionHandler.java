@@ -1,4 +1,4 @@
-package info.magnolia.services.healthcheck.setup;
+package info.magnolia.healthcheck.setup;
 
 import info.magnolia.module.DefaultModuleVersionHandler;
 

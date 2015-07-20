@@ -31,7 +31,7 @@
  * intact.
  *
  */
-package info.magnolia.services.healthcheck.servlets;
+package info.magnolia.healthcheck.servlets;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;

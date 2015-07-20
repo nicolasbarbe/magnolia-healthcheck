@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>info.magnolia.services</groupId>
   <artifactId>magnolia-healthcheck</artifactId>
-  <version>0.1</version>
+  <version>0.2-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>Magnolia Healthcheck</name>
   <description>Brings healthcheck capability to Magnolia</description>
@@ -15,8 +15,8 @@
   </scm>
 
   <properties>
-    <magnoliaVersion>5.3.9</magnoliaVersion>
-    <javaVersion>1.7</javaVersion>
+    <magnoliaVersion>5.4</magnoliaVersion>
+    <javaVersion>1.8</javaVersion>
   </properties>
 
   <dependencies>

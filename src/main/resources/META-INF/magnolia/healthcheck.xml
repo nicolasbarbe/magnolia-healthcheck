@@ -4,14 +4,14 @@
   <name>healthcheck</name>
   <displayName>${project.name}</displayName>
   <description>${project.description}</description>
-  <class>info.magnolia.healthcheck.HealthcheckModule</class>
-  <versionHandler>info.magnolia.healthcheck.setup.HealthcheckModuleVersionHandler</versionHandler>
+  <class>info.magnolia.monitoring.healthcheck.HealthcheckModule</class>
+  <versionHandler>info.magnolia.monitoring.healthcheck.setup.HealthcheckModuleVersionHandler</versionHandler>
   <version>${project.version}</version>
 
   <dependencies>
     <dependency>
       <name>core</name>
-      <version>5.3.9/*</version>
+      <version>5.4/*</version>
     </dependency>
   <!-- Add other dependencies here, e.g the standard-templating-kit, or the multisite module with the enterprise edition. -->
   <!--
@@ -29,7 +29,7 @@
   <servlets>
     <servlet>
       <name>HealthCheckServlet</name>
-      <class>info.magnolia.healthcheck.servlets.HealthCheckServlet</class>
+      <class>info.magnolia.monitoring.healthcheck.servlets.HealthCheckServlet</class>
       <comment>Used to check Magnolia instance health.</comment>
       <mappings>
         <mapping>/.healthcheck/*</mapping>

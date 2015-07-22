@@ -1,4 +1,4 @@
-package info.magnolia.services.monitoring.healthcheck;
+package info.magnolia.cloud.monitoring.healthcheck;
 
 /**
  * This class is optional and represents the configuration for the healthcheck module.
